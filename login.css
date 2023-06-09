@@ -17,23 +17,47 @@
 .logo{
     font-size: 15px;
     font-weight: 600;
-    color: #00ada0;
+    color: blue;
     cursor: default;
     margin-right: auto;
-    background-color: rgb(85, 17, 17);
     padding: 10px;
+    position: absolute;
+    
 }
 img {
-    height: 560px;
+    height: 600px;
     width: 90%;
     float: right;
+    margin: 0;
 }
 .blur{
-    background-color: rgba(0, 0, 255, 0.205);
+    background-color: rgba(0, 0, 255, 0.548);
     position: absolute;
     width: 90%;
-    height: 560px;
+    height: 600px;
     margin-left: 137px;
+}
+.dot{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-top: 305px;
+    margin-left: 405px;
+}
+.note{
+    position: absolute;
+    margin-top: 150px;
+    color: wheat;
+    margin-left: 200px;
+
+}
+.note h1{
+    font-size: 70px;
+    color: wheat;
+}
+.note p{
+    font-style: italic;
 }
 .log{
     position: absolute;
@@ -41,9 +65,9 @@ img {
     margin-left: 870px;
     height: 560px;
     width: 450px;
-    /* margin-top: 10px; */
     border: 2px;
     border-radius: 15px;
+    margin-top: 20px;
 }
 .log h2{
     margin: 60px;
@@ -82,7 +106,7 @@ input{
     margin-top: 50px;
     margin-right: 50px;
 }
-button{
+.log button{
     height: 40px;
     width: 150px;
     margin-top: 20px;
@@ -92,3 +116,29 @@ button{
     background-color: rgb(142, 64, 216);
     
 }
+.but2{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color:rgb(142, 64, 216);
+    border-radius: 15px;
+    position: relative;
+    
+    
+}
+.but1{
+    width: 75px;
+    height: 40px;
+    border-radius: 15px;
+    background-color:black;
+    margin-top: 50px;
+    position: absolute;
+    
+
+
+}
+.but2 a{
+    color: white;
+}
+ j
