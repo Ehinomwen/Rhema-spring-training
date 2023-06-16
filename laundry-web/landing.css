@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.icon{
+    background-color: rgb(3, 3, 15);
+    height: 10px;
+    width: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f1f1;
+    padding: 10px;
+    position: sticky;
+    
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+
+}
+.logo{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.nav-laund a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.nav-laund a:hover{
+    color: tomato;
+}
+.but{
+    margin-left: 30px;
+}
+button{
+    padding: 5px;
+    background-color: rgba(255, 255, 0, 0.24);
+    border: none;
+    border-radius: 15%;
+    box-shadow: 2px 3px 1px 3px rgba(255, 255, 0, 0.26) ;
+    color: blue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: tomato;
+}
+.sect-1{
+    background-image: linear-gradient(135deg, #090580, #0079ff);
+    height: 500px;
+    width: auto;
+}
+.sect-1 img{
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+.writeup{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.writeup h1{
+    font-size: 50px;
+}
